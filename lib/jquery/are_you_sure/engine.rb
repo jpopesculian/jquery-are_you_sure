@@ -1,5 +1,6 @@
 module Jquery
   module AreYouSure
-    VERSION = "1.9.0"
+    class Engine < ::Rails::Engine
+    end
   end
 end
