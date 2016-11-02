@@ -1,9 +1,5 @@
 # Jquery::AreYouSure
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jquery/are_you_sure`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,7 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In your javascript file include it with
+
+```javascript
+//= require jquery.are-you-sure
+```
+
+And then simply apply to forms you want to check
+
+```javascript
+$('form').areYouSure();
+```
+
+For more detailed instructions look at [the original jquery.AreYouSure plugin repository](https://github.com/codedance/jquery.AreYouSure)
 
 ## Development
 
@@ -32,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jquery-are_you_sure.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jpopesculian/jquery-are_you_sure.
 
 
 ## License
